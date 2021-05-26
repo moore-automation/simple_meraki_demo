@@ -1,3 +1,4 @@
 ciscosparkapi
 Flask
-jsonifymeraki
+jsonify
+meraki
