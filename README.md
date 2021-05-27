@@ -13,6 +13,8 @@ Meraki Content: [Meraki DevNet Associate](https://community.meraki.com/t5/FAQ-an
 
 Meraki API: [Docs](https://developer.cisco.com/meraki/api-v1)
 
+Meraki SDK: [SDK Git Repo](https://github.com/meraki/dashboard-api-python)
+
 ## Course Blueprint
 
 ---
