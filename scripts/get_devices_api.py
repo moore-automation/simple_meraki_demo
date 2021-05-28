@@ -30,13 +30,12 @@ def getorgid(p_apikey, p_orgname):
 
     if r.status_code != requests.codes.ok:
         return 'null'
-
+    # storing request value in json
     rjson = r.json()
 
     for record in rjson:
         if record['name'] == p_orgname:
-            print("\nOrganisation ({0}) has an Organisation ID : {1}".format(
-                p_orgname, record['id']))
+            print("\nOrganisation ({0}) has an Organisation ID : {1}".format(p_orgname, record['id']))
             return record['id']
 
     return('null')
@@ -79,7 +78,7 @@ def getalldevid(p_apikey, p_shardurl, p_networkid):
         return 'null'
 
     rjson = r.json()
-    print("\n{0:25}{1:25}{2:25}{3:25}".format(
+    print("\n{0:100}{1:25}{2:25}{3:25}".format(
         "Device Hostname", "IP Address", "Model", "Serial Number"))
     for device in rjson:
         ## this is really horrible but sometimes the name/ip's aren't set.

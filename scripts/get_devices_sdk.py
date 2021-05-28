@@ -19,8 +19,8 @@ def main():
     net_id = id_loop(net_output, arg_nwname)
     dev_output = dashboard.networks.getNetworkDevices(net_id)
 
-    print("\n{0:25}{1:25}{2:25}{3:25}{4:25}".format(
-        "Device Hostname", "LAN IP Address", "WAN IP Address", "Model", "Serial Number"))
+    print("\n{0:25}{1:25}{2:25}{3:25}".format(
+        "Device Hostname", "LAN IP Address", "Model", "Serial Number"))
     for device in dev_output:
         # this is really horrible but sometimes the name/ip's aren't set.
         name = device.get('name', "")
