@@ -6,7 +6,7 @@ import os
 
 #bearer_token = os.environ.get("bearer_token")
 #room_id = os.environ.get("room_id")
-bearer_token = "ZWE0MGU1NmItZjdmMS00OWU4LWJmZjQtZDIwYTQyNTA3NGIyZDc3Mjc0ZjktNWE5_PF84_1eb65fdf-9643-417f-9974-ad72cae0e10f"
+bearer_token = ""
 room_id = "Y2lzY29zcGFyazovL3VzL1JPT00vMTM2MWIyNDAtYjdiNy0xMWViLTlhZmUtOTExZDFhYmUwZDZh"
 
 
