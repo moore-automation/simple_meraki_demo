@@ -29,7 +29,11 @@ The below section summmarises the Meraki element of the DevAsc exam - the learni
 
 ## Rest Call - 3.9.a
 
+[Rest Script](scripts/get_devices_api.py)
+
 ## SDK - 3.9.c
+
+[SDK Script](scripts/get_devices_sdk.py)
 
 ## Webhooks
 
